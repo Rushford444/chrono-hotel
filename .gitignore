@@ -1,0 +1,53 @@
+# Rails
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Master key (décryptage des credentials)
+/config/master.key
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Uploaded files (dev)
+/storage/*
+!/storage/.keep
+
+# macOS
+.DS_Store
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Dépendances
+/node_modules/
+/vendor/bundle
+
+# Yarn
+/yarn-error.log
+yarn-debug.log*
+
+# Assets compilés
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+# Coverage (tests)
+/coverage/
+
+# Fichiers temporaires
+rerun.txt
+pickle-email-*.html
